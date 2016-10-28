@@ -1,0 +1,18 @@
+{
+	"extends": "tslint:recommended",
+	"rules": {
+		"use-strict": [
+			true,
+			"check-module"
+		],
+		"interface-name": [
+			false,
+			"always-prefix"
+		],
+		"no-unused-variable": false,
+		"object-literal-sort-keys": false,
+		"whitespace": [
+			false
+		]
+	}
+}
