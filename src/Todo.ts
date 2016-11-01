@@ -126,7 +126,7 @@ export class TodoItemStore {
         const states = events
             .scan((model, action) => {
                 switch (action.type) {
-                    case "markedAsDone": return assign({}, model, { isDone: action.isDone });
+                    case "markedAsDone": return assign({}, model, { isDone: true });
                     default:
                         return model;
                 }
